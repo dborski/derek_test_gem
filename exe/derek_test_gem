@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "derek_test_gem"
+v = DerekTestGem::Vote.new
+v.for_me
